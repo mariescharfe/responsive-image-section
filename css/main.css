@@ -37,6 +37,7 @@ div {
 
 .content {
   padding: 0 1rem;
+  text-align: left;
 }
 
 p {
@@ -48,7 +49,7 @@ a {
   padding: .5em .75em;
   color: #e2e2e2;
   background-color: #555;
-  border-radius: 5px;
+  border-radius: 4px;
   text-decoration: none;
 }
 
@@ -72,6 +73,25 @@ a:hover {
     line-height: 1.4;
   }
 
+  .content {
+    display: inline-block;
+    max-width: 25em;
+    width: 48%;
+    vertical-align: middle;
+  }
+
+  .image {
+    display: inline-block;
+    max-width: 25em;
+    width: 50%;
+    vertical-align: middle;
+  }
+
+  section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -87,6 +107,11 @@ a:hover {
 
   html {
     font-size: 130%;
+  }
+
+  .section {
+    text-align: center;
+    margin: auto 0;
   }
 
 }
