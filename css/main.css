@@ -32,6 +32,28 @@ div {
 .img-flex {
   width: 100%;
   display: block;
+  padding-top: 1rem;
+}
+
+.content {
+  padding: 0 1rem;
+}
+
+p {
+  margin: 0;
+  padding-bottom: 2em;
+}
+
+a {
+  padding: .5em .75em;
+  color: #e2e2e2;
+  background-color: #555;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #000;
 }
 
 @media only screen and (min-width: 25em) {
