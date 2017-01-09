@@ -10,32 +10,61 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font: normal 100%/1.3 sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
+section {
+  background-color: #e2e2e2;
+}
+
+div {
+  display: inline-block;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+}
+
 @media only screen and (min-width: 25em) {
 
-
+  html {
+    font-size: 100%;
+    line-height: 1.3;
+  }
 
 }
 
 @media only screen and (min-width: 38em) {
 
-
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
 
 }
 
 @media only screen and (min-width: 60em) {
 
-
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
 
 }
 
 @media only screen and (min-width: 90em) {
 
-
+  html {
+    font-size: 130%;
+  }
 
 }
